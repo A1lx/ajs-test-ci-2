@@ -6,5 +6,6 @@ export default function showPlayers(players) {
     if (a.health > b.health) {
       return -1;
     }
+    return 0;
   });
 }
